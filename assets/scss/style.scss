@@ -1,0 +1,142 @@
+@import "./basic.scss";
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-page {
+    background: #ea7500;
+    height: 100vh;
+    .images {
+        height: 100%;
+        @include flex-center;
+        flex-direction: column;
+        .title {
+            flex: 7;
+            @include flex-center;
+            width: calc(min(600px, 80vw));
+            height: 90vh;
+            svg {
+                width: 60vw;
+            }
+        }
+
+        .publisher {
+            flex: 3;
+            @include flex-center;
+            svg {
+                width: 15vw;
+            }
+        }
+    }
+}
+
+.content {
+    margin: auto;
+    font-size: large;
+    padding: 0 1em 4em;
+    line-height: 1.25em;
+
+    h2, h3 {
+        margin: 4em auto 2em;
+        width: calc(min(80%, 800px));
+        line-height: 1em;
+        height: 1.2em;
+    }
+
+    strong {
+        color: red;
+        font-weight: 600;
+    }
+
+    & > p, ul, ol, .box {
+        margin: 1em auto;
+        width: calc(min(80%, 800px));
+    }
+
+    .box {
+        border: 2px solid #333;
+        padding: 1em;
+        line-height: 1.5em;
+    }
+
+    ul, ol {
+        padding: 0 1.5em;
+        li {
+            font-size: 0.95em;
+            margin: 0.5em 0;
+        }
+    }
+    ul {
+        li {
+            list-style-type: circle;
+        }
+    }
+
+    code {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    .center {
+        @include flex-center;
+        flex-direction: column;
+        width: 85vw;
+        margin: 1.5em auto;
+        img {
+            width: 100%;
+            max-width: 960px;
+            object-fit: contain;
+
+        }
+
+        &.smaller {
+            img {
+                max-width: 550px;
+            }
+        }
+
+        &.title {
+            margin: 7em auto;
+        }
+    }
+
+}
+
+.icon {
+    position: fixed;
+    right:1em;
+    top: 1em;
+    width: 4em;
+    svg {
+        transform: rotate(-90deg);
+    }
+}
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+
+    &:before,
+    &:after {
+        background-color: #333;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    &:before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+    &:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+}
+

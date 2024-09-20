@@ -1,0 +1,13 @@
+{{ $path := (.Get 0) }}
+{{ $img := .Page.Resources.Get (printf "%s.%s%s" (path.BaseName $path)
+                                                 (.Site.LanguageCode)
+                                                 (path.Ext $path)) }}
+{{ if (not $img) }}
+  {{ $img = .Page.Resources.Get $path }}
+{{ end }}
+
+{{ $class := .Get 1 }}
+{{ $base64 := $img.Content | base64Encode }}
+<div class="center {{ $class }}">
+  <img alt="{{ .Get 0 }}" src="data:{{ $img.MediaType.Type}};base64,{{ $base64 }}" />
+</div>
