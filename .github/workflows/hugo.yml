@@ -48,8 +48,9 @@ jobs:
           git config --global user.email "my@kuku9.net"
           git config --global user.name "GitHub Actions"
           cd page
-          mkdir -p don
+          mkdir -p don/en
           cp ../public/index.html don/
+          cp ../public/en/index.html don/en
           git add .
-          git commit -m "update teiho" || true
+          git commit -m "update don" || true
           git push origin main
