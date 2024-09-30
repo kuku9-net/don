@@ -6,33 +6,6 @@
   justify-content: center;
 }
 
-.top-page {
-    background: #ea7500;
-    height: 100vh;
-    .images {
-        height: 100%;
-        @include flex-center;
-        flex-direction: column;
-        .title {
-            flex: 7;
-            @include flex-center;
-            width: calc(min(600px, 80vw));
-            height: 90vh;
-            svg {
-                width: 60vw;
-            }
-        }
-
-        .publisher {
-            flex: 3;
-            @include flex-center;
-            svg {
-                width: 15vw;
-            }
-        }
-    }
-}
-
 .content {
     margin: auto;
     font-size: large;
@@ -53,7 +26,9 @@
 
     & > p, ul, ol, .box {
         margin: 1em auto;
-        width: calc(min(80%, 800px));
+        @media (min-width: 790px){
+            width: calc(min(85%, 800px));
+        }
     }
 
     .box {
