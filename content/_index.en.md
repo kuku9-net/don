@@ -18,6 +18,7 @@ However, it is not easy to become independent from capital,
 because you will suffer irrationality if you break that dependence.
 So, as a first step toward independence,
 why don't we develop a place where independent people can connect with each other on their own social media?
+We need to have the experience of actively creating a place by ourselves, rather than choosing from the options given to us by someone else.
 
 It will be achieved by the following:
 
