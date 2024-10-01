@@ -72,6 +72,7 @@ Ideally, each membrane would have its own philosophy,
 as philosophy is shared inside the membrane.
 
 There is an aggregation bot to create a membrane that function in such a way.
+I hope that each aggregation bot will play a role in sharing a own philosophy and that the number of aggregation bots for various philosophies will increase.
 
 {{< center aggregation.webp smaller >}}
 
