@@ -15,6 +15,7 @@ defaultContentLanguageInSubdir = false
 
    [languages.en]
      languageCode = "en"
+     title = "Recapture on Mastodon"
      [languages.en.markup.goldmark.extensions.cjk]
          enable = false
      [languages.en.markup.goldmark.renderer]
