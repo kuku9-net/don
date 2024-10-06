@@ -12,10 +12,16 @@ defaultContentLanguageInSubdir = false
   [languages.ja]
     languageCode = "ja"
     title = "奪還のマストドン"
+    [languages.ja.params]
+        description = "独立自治の第一歩。現状のSNSを乗り越えるために"
+        cardFilename = "card_image.png"
 
    [languages.en]
      languageCode = "en"
      title = "Recapture on Mastodon"
+     [languages.en.params]
+        description = "Overcome the current SNS as a first step toward independent autonomy"
+        cardFilename = "card_image.png"
      [languages.en.markup.goldmark.extensions.cjk]
          enable = false
      [languages.en.markup.goldmark.renderer]
