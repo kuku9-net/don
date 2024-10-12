@@ -16,9 +16,10 @@ mastodon: <a href="https://kolektiva.social/@mzo">@mzo@kolektiva.social</a>
 Our current social problems stem from our dependence on huge capitals.
 However, it is not easy to become independent from capital,
 because you will suffer irrationality if you break that dependence.
+We need places for those who resist homogenized rationality and aspire to independence from it to unite their forces.
 So, as a first step toward independence,
 why don't we develop a place where independent people can connect with each other on their own social media?
-We need to have the experience of actively creating a place by ourselves, rather than choosing from the options given to us by someone else.
+I believe that the experience of actively creating a place by ourselves will lead to the realization of creating a better society.
 
 It will be achieved by the following:
 
