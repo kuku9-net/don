@@ -82,14 +82,14 @@ SNSは"何か"への入口を広げますが、入口で留まるだけならば
 インスタンスによってはユーザーを新規で受け付けていなかったり、紹介制だったりします。
 下記は現在新規で登録可能です。
 
-- mstdn.jp  
+- [mstdn.jp](https://mstdn.jp)  
 日本で一番活発なインスタンス。企業が運営しています。
-- mastodon-japan.net  
+- [mastodon-japan.net](https://mastodon-japan.net)  
 私設サーバで複数人のチームで運営しているインスタンス。電子通信事業の届け出も出してます。
-- nagoyadon.jp  
+- [nagoyadon.jp](https://nagoyadon.jp)  
 おそらく名古屋の人が個人的に運営しているインスタンス。
 登録時にサーバーの説明を読んで合言葉の入力が必要です。
-- kolektiva.social  
+- [kolektiva.social](https://kolektiva.social)  
 反植民地主義、反政府主義向けのインスタンス。
 海外のユーザーが中心です。
 
